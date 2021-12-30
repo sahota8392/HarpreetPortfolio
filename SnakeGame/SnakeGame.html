@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../style.css"/>
+    <link rel="stylesheet" href="../node_modules/font-awesome/css/font-awesome.min.css"/>
+
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="SnakeGame.css"/>
+    
+    
+</head>
+
+<body>
+    <header class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-sm-3 col-md-2 align self-center">
+                </div>
+                <div class="col">
+                    <h1>Games</h1>
+                    <a href="../CoverPage.html"><button class="btn btn-light">Home Page</button></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+<div clas ="container" id="canvasArea">
+    <h1>Snake Game</h1>
+    <canvas id=game width="400" height="400"></canvas>
+
+<div class="row"></div>
+    <script src="SnakeGame.js"></script>
+    <input type="button" class="restart" value="Restart Game" onClick="window.location.reload()"></input>
+</div>
+</body>
+</html>
