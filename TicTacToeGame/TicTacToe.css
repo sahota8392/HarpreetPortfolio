@@ -8,9 +8,7 @@ section {
 
 .gameContainer {
     display: grid;
-/*  
-Grid = repeat   Template = 3   Columns = 3 repeat  
-*/
+
     grid-template-columns: repeat(3, auto);
     width: 340px;
     height: 340px;
@@ -21,9 +19,7 @@ Grid = repeat   Template = 3   Columns = 3 repeat
     font-family: "Comic Sans MS", cursive;
     width: 100px;
     height: 100px;
-/*
-Box shadow effect right, bottom, opacity, outside margin + color
-*/
+
     box-shadow: 1px 2px 30px 4px pink;
     border: 3px solid black;
     cursor: crosshair;
