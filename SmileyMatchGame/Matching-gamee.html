@@ -9,57 +9,16 @@
 <link rel="stylesheet" href="../node_modules/font-awesome/css/font-awesome.min.css"/>
 <link rel="stylesheet" href="../node_modules/bootstrap-social/bootstrap-social.css"/>
 
-    <title>Smiley Matching Game!</title>
-
-    <style>
-        img{
-            position: absolute;
-            width: 30px;
-            height: 30px;
-        }
-
-        div{
-            position: absolute;
-            width: 500px;
-            height: 500px;
-            background-color:black;
-            opacity: 90%;
-        }
-
-        #rightSide{
-            left: 500px;
-            border-left: 1px solid white;
-            background-color:blue;
-        }
-
-        p, h1 {
-            text-align:center;
-        }
-
-        em{
-            color:red;
-        }
-
-        strong{
-            color:blue;
-        }
-
-        #restart {
-            color:green;
-            background-color:gold;
-            display:grid;
-            margin:auto;
-            padding:5px;
-        }
-
-    </style>
+    <title>Smiley Match Game!</title>
+    <link rel="stylesheet" href="Smiley.css">
 </head>
 
 <body onload="generateFaces()">
-    <h1>Smiley Matching Game!</h1>
+    <h1>Smiley Match Game!</h1>
         <p>Click the <strong>extra</strong> smiley face on the <em>LEFT</em> to proceed to the next level!</p>
     <button type="button" id="restart" value="Restart Game" onclick="newGame()">Restart Game</button>
     <br>
+    
 
     <div id="leftSide"></div>
     <div id="rightSide"></div>

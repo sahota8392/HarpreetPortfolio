@@ -1,0 +1,38 @@
+img{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+}
+
+div{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background-color:black;
+    opacity: 90%;
+}
+
+#rightSide{
+    left: 500px;
+    border-left: 2px solid white;
+    background-color:green;
+}
+
+p, h1 {
+    text-align:center;
+}
+
+em{
+    color:red;
+}
+
+strong{
+    color:blue;
+}
+
+#restart {
+    background-color:gold;
+    display:grid;
+    margin:auto;
+    padding:5px;
+}
